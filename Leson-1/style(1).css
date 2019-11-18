@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 50px auto;
+    background-color: #ccc;
+    width:80%;
+    height: 100px;
+}
+.bloc1{
+    border: 1px solid #000;
+    border-top-left-radius: 20px 10px;
+    border-top-right-radius:20px 10px ;
+    border-bottom-right-radius:20px 10px ;
+    border-bottom-left-radius:20px 10px ;
+}
+.bloc2{
+    border-radius: 20px 30px 40px 50px;
+}
+.bloc3{
+    border:22px solid #000033 ;
+    border-image: url(borderimg.png) 22 repeat round;
+}
+.bloc4{
+    box-shadow: 15px 15px 15px -10px #ff0000, inset 10px 10px 10px 5px #009900;
+
+}
