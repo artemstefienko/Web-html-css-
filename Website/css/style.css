@@ -20,16 +20,16 @@ h2 {
   margin: 10px 0;
 }
 
-#pagewrap {
+.pagewrap {
   width: 980px;
   margin: 0 auto;
 }
-#title {
+.title {
   font-size: 20px;
   color: #666;
 }
 
-#header {
+.header {
   margin-bottom: 20px;
   background-color: #333;
   border-radius: 10px;
@@ -37,34 +37,34 @@ h2 {
   height: 50px;
   line-height: 50px;
 }
-#searchform {
+.searchform {
   float: right;
   margin-right: 20px;
 }
-#searchform input {
+.searchform input {
   border-radius: 10px;
   padding: 5px 20px;
 }
 
-#header ul {
+.header ul {
   float: left;
   list-style-type: none;
 }
-#header ul li {
+.header ul li {
   float: left;
 }
-#header ul li a {
+.header ul li a {
   color: #fff;
   text-decoration: none;
   padding: 5px 20px;
   border-radius: 10px;
 }
-#header ul li a:hover {
+.header ul li a:hover {
   color: #666;
   background-color: #fff;
 }
 
-#content {
+.content {
   width: 600px;
   float: left;
   background-color: #ccc;
@@ -75,31 +75,31 @@ h2 {
   margin: 20px;
 }
 
-#sidebar {
+.sidebar {
   width: 360px;
   float: right;
   margin-left: 20px;
   margin-top: 20px;
 }
-#sidebar ul {
+.sidebar ul {
   list-style: none;
   background-color: #ccc;
   padding: 20px;
   border-radius: 10px;
 }
-#sidebar ul li {
+.sidebar ul li {
   padding: 10px 0;
   border-bottom: 1px solid #666;
 }
-#sidebar ul li a {
+.sidebar ul li a {
   text-decoration: none;
   color: #666;
   font-weight: bold;
 }
-#sidebar ul li a:hover {
+.sidebar ul li a:hover {
   color: #fff;
 }
-#picture {
+.picture {
   margin-top: 20px;
   background-color: #ccc;
   padding: 20px;
@@ -110,11 +110,11 @@ h2 {
   clear: both;
   margin-bottom: 20px;
 }
-#footer {
+.footer {
   background-color: #333;
   border-radius: 10px;
 }
-#footer p {
+.footer p {
   color: #ccc;
   padding: 10px;
   text-align: right;
