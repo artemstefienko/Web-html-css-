@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Stefiienko</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Lexend Peta", sans-serif;
+        background: url(https://i.pinimg.com/originals/9d/ee/0b/9dee0b961637abe838bd9004a3a43eb9.jpg);
+         }
+
+      .header {
+        width: 80%;
+        margin-left: 10%;
+      }
+      .header img {
+        width: 8%;
+        margin-right: 100%;
+      }
+      .text-header {
+        color: rgb(197, 188, 106);
+        font-size: 14px;
+        text-align: center;
+      }
+      .nav {
+        margin: auto;
+        width: 800px;
+        height: 100px;
+      }
+      .top-nav {
+        font-size: 11px;
+        margin-top: 30px;
+      }
+      .top-nav a {
+        color: #9b3939;
+        margin-left: 8%;
+        padding: 14px 16px;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      .top-nav a:hover {
+        border-bottom: 1px solid rgb(156, 153, 153);
+      }
+      .menu {
+        width: 15%;
+        text-decoration: none;
+        position: fixed;
+        top: 50%;
+      }
+
+      .menu li a {
+        text-decoration: none;
+        color: #aaa983;
+        padding: 3px 7px;
+        font-size: 14px;
+      }
+      .menu li a:hover {
+        background-color:#e96149;
+        opacity: 60%;
+      }
+      .menu-two {
+        text-align: left;
+        margin-left: 80%;
+        width: 25%;
+        position: fixed;
+        top: 50%;
+      }
+      .menu-two ul {
+        list-style-type: none;
+      }
+
+      .menu-two li a {
+        text-decoration: none;
+        color: #aaa983;
+        padding: 3px 7px;
+        font-size: 14px;
+      }
+      .menu-two li a:hover {
+        background-color: #e96149;
+        opacity: 60%;
+      }
+      .content {
+        color:rgb(89, 102, 128);
+        border-radius: 13px;
+        height: 10%;
+        margin-left: 22%;
+        margin-bottom: 2%;
+        width: 50%;
+      }
+      .footer {
+        position: fixed;
+        opacity: 60%;
+        font-size: 10px;
+        left: 0;
+        bottom: 0;
+        padding: 5px;
+        background: #5590a1;
+        color: rgb(0, 0, 0);
+        width: 100%;
+      }
+      .footer a {
+        text-decoration: none;
+      }
+      .footer a:hover {
+        background-color: #80d6f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="text-header">
+        <h4>Stefiienko Artem</h4>
+        <br />
+        <p><i>What is Html</i></p>
+        <img
+          src="data:image/jpeg;base64,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"
+        />
+      </div>
+    </div>
+    <div class="nav">
+      <div class="top-nav">
+        <a href="#">Home </a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+      </div>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home page</a></li>
+        <li><a href="#">Rubrication</a></li>
+        <li><a href="#">Index A - Z</a></li>
+        <li><a href="#">Featured Articles</a></li>
+        <li><a href="#">Random article</a></li>
+        <li><a href="#">Current events</a></li>
+      </ul>
+    </div>
+    <div class="menu-two">
+      <ul>
+        <li><a href="#">Home page</a></li>
+        <li><a href="#">Rubrication</a></li>
+        <li><a href="#">Index A - Z</a></li>
+        <li><a href="#">Featured Articles</a></li>
+        <li><a href="#">Random article</a></li>
+        <li><a href="#">Current events</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <p>
+        HTML (англ. HyperText Markup Language — мова розмітки гіпертексту) — це
+        мова тегів, якою пишуться гіпертекстові документи для мережі Інтернет
+        Веб-браузери отримують HTML-документи з веб-сервера або з локальної
+        пам'яті і передають документи в мультимедійні веб-сторінки. HTML описує
+        структуру веб-сторінки семантично і спочатку включені сигнали для
+        зовнішнього вигляду документа. Елементи HTML є будівельними блоками
+        сторінок HTML. За допомогою конструкцій HTML, зображення та інші
+        об'єкти, такі як інтерактивні форми, можуть бути вбудовані у
+        візуалізовану сторінку. HTML надає засоби для створення структурованих
+        документів, позначаючи структурну семантику тексту, наприклад заголовки,
+        абзаци, списки, посилання, цитати та інші елементи. Елементи HTML
+        окреслені тегами, написаними з використанням кутових дужок. Теги, такі
+        як і безпосередньо вводять вміст на сторінку.
+      </p>
+      <br />
+      <p>
+        Інші теги оточують і надають інформацію про текст документа і можуть
+        включати інші теги як піделементи. Браузери не показують теги HTML, але
+        використовують їх для інтерпретації вмісту сторінки. HTML може
+        вбудовувати програми, написані на мові сценаріїв, наприклад JavaScript,
+        що впливає на поведінку та вміст веб-сторінок. Включення CSS визначає
+        вигляд і компонування вмісту. World Wide Web Consortium (W3C), які
+        супроводжують як HTML і CSS стандартів, заохочує використання CSS над
+        явним презентаційним HTML з 1997 року. HTML впроваджує засоби для:
+        створення структурованого документа шляхом позначення структурного
+        складу тексту: заголовки, абзаци, списки, таблиці, цитати та інше;
+        отримання інформації із Всесвітньої мережі через гіперпосилання;
+        створення інтерактивних форм; включення зображень, звуку, відео, та
+        інших об'єктів до тексту.
+      </p>
+    </div>
+
+    <div class="footer">
+      <a href="#"><strong>Сontacts</strong></a>
+      <a href="#"><strong>Books</strong></a>
+      <a href="#"><stong>Reviews</stong></a>
+    </div>
+  </body>
+</html>
